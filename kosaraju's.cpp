@@ -41,7 +41,7 @@ int main() {
     int N, E;
     cin >> N >> E;
     // space O(2 * N)
-    // time O(V + E)
+    // time O(N + E)
     vector<int> adj[N];
     for(int i = 0 ; i < E ; i++) {
         int u, v;
