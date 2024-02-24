@@ -40,6 +40,8 @@ void dfs2(int node, vector<int> adj[], vector<int> &vis) {
 int main() {
     int N, E;
     cin >> N >> E;
+    // space O(2 * N)
+    // time O(V + E)
     vector<int> adj[N];
     for(int i = 0 ; i < E ; i++) {
         int u, v;
@@ -77,7 +79,6 @@ int main() {
     }
     cout << cnt;
     return 0;
-
 }
 
 
